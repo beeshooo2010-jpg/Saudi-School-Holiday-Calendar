@@ -3,86 +3,114 @@ VERSION:2.0
 PRODID:-//beeshooo2010-jpg//Saudi School Holiday Calendar//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:العطلات والإجازات السعودية (مدارس
-  + رسمية)
-X-WR-CALDESC:إجازات المدارس والعطلات الرسمية ف
- ي السعودية للعام الدراسي 1448-1449هـ (2026-2027م).
-  كل حدث يوضح الفئة المستفيدة. التواريخ من
-  تقويم وزارة التعليم المعلن وقد تعدلها ا
- لوزارة أو إدارات التعليم.
+X-WR-CALNAME:العطلات والمناسبات السعودية (مدار
+ س + رسمية + دينية)
+X-WR-CALDESC:إجازات المدارس والعطلات الرسمية و
+ المناسبات الدينية في السعودية للعام الد
+ راسي 1448-1449هـ (2026-2027م). كل حدث يوضح فئته ودر
+ جة توثيقه. تواريخ المدارس الأساسية مطابق
+ ة لبوابة وزارة التعليم، والمناسبات الدي
+ نية بتقويم أم القرى (العيدان ورمضان يُعل
+ نان رسمياً برؤية الهلال وقد يختلفان يوما
+ ً).
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:admin-return-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:عودة الهيئة الإدارية والإشرافية (مدا
  رس)
 DESCRIPTION:الفئة: مدارس\nالثلاثاء 2026-08-11\nالثلا
- ثاء 28 صفر 1448.\nالحالة: confirmed
+ ثاء 28 صفر 1448.\nالتوثيق: التاريخ مطابق لبوا
+ بة وزارة التعليم الرسمية.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:teachers-return-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:عودة المعلمين والمعلمات (مدارس)
 DESCRIPTION:الفئة: مدارس\nالأحد 2026-08-16\nالأحد 3 ر
- بيع الأول 1448.\nالحالة: confirmed
+ بيع الأول 1448.\nالتوثيق: التاريخ مطابق لبو
+ ابة وزارة التعليم الرسمية.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:school-start-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:بداية العام الدراسي وبداية الفصل الأ
  ول (مدارس)
 DESCRIPTION:الفئة: مدارس\nالأحد 2026-08-23\nالأحد 10 ر
- بيع الأول 1448 لمعظم المناطق. مكة والمدينة 
- وجدة والطائف تبدأ الأحد 30 أغسطس 2026.\nالحا
- لة: confirmed
+ بيع الأول 1448.\nالتوثيق: التاريخ مطابق لبو
+ ابة وزارة التعليم الرسمية.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:mawlid-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:المولد النبوي (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالثلاثاء 2026-08-2
+ 5\nالتاريخ الهجري: 12 ربيع الأول 1448\nمناسبة 
+ دينية وليست إجازة رسمية في السعودية.\nالت
+ وثيق: محسوب بتقويم أم القرى (التقويم الرس
+ مي في السعودية) وتطابق مع 10 تواريخ منشورة
+  في بوابة وزارة التعليم. بداية رمضان والع
+ يدان تُعلن رسمياً برؤية الهلال وقد تختلف
+  يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:school-start-4cities-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:بداية العام الدراسي (مدارس - مكة والم
  دينة وجدة والطائف)
 DESCRIPTION:الفئة: مدارس - مكة والمدينة وجدة وا
- لطائف\nالأحد 2026-08-30\nالأحد 17 ربيع الأول 1448.
- \nالحالة: confirmed
+ لطائف\nالأحد 2026-08-30\nالأحد 17 ربيع الأول 1448 
+ لمكة المكرمة والمدينة المنورة وجدة والط
+ ائف.\nالتوثيق: غير منشورة في بوابة وزارة ا
+ لتعليم؛ من مصادر ثانوية.
 CATEGORIES:مدارس - مكة والمدينة وجدة والطائف
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:national-day-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
 SUMMARY:آخر يوم دراسي قبل إجازة اليوم الوطني
 DESCRIPTION:الفئة: مدارس\nالإجازة الرسمية للطل
  اب يوما الأربعاء والخميس 23-24 سبتمبر ويضا
- ف إليهما الجمعة والسبت.
+ ف إليهما الجمعة والسبت.\nالتوثيق: بداية ا
+ لإجازة مطابقة لبوابة وزارة التعليم الرس
+ مية. آخر يوم دراسي وآخر يوم إجازة وأول يو
+ م عودة مأخوذة من تغطية صحفية لتقويم الوز
+ ارة (عكاظ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:national-day-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260927
 SUMMARY:إجازة اليوم الوطني (مدارس)
@@ -91,14 +119,18 @@ DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الثلاث
  \nآخر يوم للإجازة: السبت 2026-09-26\nأول يوم عو
  دة للطلاب: الأحد 2026-09-27\nالإجازة الرسمية ل
  لطلاب يوما الأربعاء والخميس 23-24 سبتمبر و
- يضاف إليهما الجمعة والسبت.\nالحالة: confirmed
+ يضاف إليهما الجمعة والسبت.\nالتوثيق: بداي
+ ة الإجازة مطابقة لبوابة وزارة التعليم ال
+ رسمية. آخر يوم دراسي وآخر يوم إجازة وأول 
+ يوم عودة مأخوذة من تغطية صحفية لتقويم ال
+ وزارة (عكاظ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:national-day-2026@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:اليوم الوطني السعودي (عطلة رسمية - حك
@@ -106,58 +138,70 @@ SUMMARY:اليوم الوطني السعودي (عطلة رسمية - حك
 DESCRIPTION:الفئة: عطلة رسمية - حكومي وخاص\nالأر
  بعاء 2026-09-23\nعطلة رسمية ثابتة في 23 سبتمبر 
  لجميع القطاعات (حكومي وخاص وغير ربحي).\nال
- حالة: confirmed
+ توثيق: عطلة ثابتة بأمر ملكي؛ التوثيق من م
+ لخص نظام العمل (مصدر ثانوي) وليس من صفحة ر
+ سمية للوزارة. وتاريخ بداية إجازة الطلاب 
+ في بوابة وزارة التعليم.
 CATEGORIES:عطلة رسمية - حكومي وخاص
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:national-day-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:أول يوم عودة للدراسة بعد إجازة اليوم 
  الوطني
 DESCRIPTION:الفئة: مدارس\nالإجازة الرسمية للطل
  اب يوما الأربعاء والخميس 23-24 سبتمبر ويضا
- ف إليهما الجمعة والسبت.
+ ف إليهما الجمعة والسبت.\nالتوثيق: بداية ا
+ لإجازة مطابقة لبوابة وزارة التعليم الرس
+ مية. آخر يوم دراسي وآخر يوم إجازة وأول يو
+ م عودة مأخوذة من تغطية صحفية لتقويم الوز
+ ارة (عكاظ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:extra-2026-10-25@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:إجازة إضافية (مدارس - إجازة إضافية حس
  ب المنطقة)
 DESCRIPTION:الفئة: مدارس - إجازة إضافية حسب الم
- نطقة\nالأحد 2026-10-25\nإجازة إضافية في تقويم 
- وزارة التعليم لمعظم المناطق. راجع إدارة 
- التعليم التابع لها.\nالحالة: regional
+ نطقة\nالأحد 2026-10-25\nإجازة إضافية لمعظم الم
+ ناطق حسب تغطية صحفية.\nالتوثيق: غير منشور
+ ة في بوابة وزارة التعليم؛ مصدرها تغطية ص
+ حفية وتختلف بحسب إدارة التعليم. راجع إدا
+ رتك.
 CATEGORIES:مدارس - إجازة إضافية حسب المنطقة
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:آخر يوم دراسي قبل إجازة الخريف
 DESCRIPTION:الفئة: مدارس\nالعودة الرسمية الأحد 
- 29 نوفمبر، لكن إدارات تعليم كثيرة أعلنت ا
- لأحد 29 نوفمبر إجازة إضافية (انظر الإجازا
- ت الإضافية) فتكون العودة الفعلية الاثنين
-  30 نوفمبر. راجع إدارة التعليم التابع لها.
+ 29 نوفمبر. قد تعلن إدارات التعليم إجازات إ
+ ضافية قبل العودة أو بعدها؛ راجع إدارتك.\n
+ التوثيق: بداية الإجازة مطابقة لبوابة وزا
+ رة التعليم الرسمية. آخر يوم دراسي وآخر يو
+ م إجازة وأول يوم عودة مأخوذة من تغطية صحف
+ ية لتقويم الوزارة (عكاظ وغيرها) ولم تُنشر
+  في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261129
 SUMMARY:إجازة الخريف (مدارس)
@@ -165,80 +209,111 @@ DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الخميس
  2026-11-19\nأول يوم للإجازة: الجمعة 2026-11-20\nآخر 
  يوم للإجازة: السبت 2026-11-28\nأول يوم عودة لل
  طلاب: الأحد 2026-11-29\nالعودة الرسمية الأحد 29
-  نوفمبر، لكن إدارات تعليم كثيرة أعلنت ال
- أحد 29 نوفمبر إجازة إضافية (انظر الإجازات 
- الإضافية) فتكون العودة الفعلية الاثنين 30
-  نوفمبر. راجع إدارة التعليم التابع لها.\nا
- لحالة: confirmed
+  نوفمبر. قد تعلن إدارات التعليم إجازات إض
+ افية قبل العودة أو بعدها؛ راجع إدارتك.\nا
+ لتوثيق: بداية الإجازة مطابقة لبوابة وزار
+ ة التعليم الرسمية. آخر يوم دراسي وآخر يوم
+  إجازة وأول يوم عودة مأخوذة من تغطية صحفي
+ ة لتقويم الوزارة (عكاظ وغيرها) ولم تُنشر 
+ في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:autumn-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:أول يوم عودة للدراسة بعد إجازة الخري
  ف
 DESCRIPTION:الفئة: مدارس\nالعودة الرسمية الأحد 
- 29 نوفمبر، لكن إدارات تعليم كثيرة أعلنت ا
- لأحد 29 نوفمبر إجازة إضافية (انظر الإجازا
- ت الإضافية) فتكون العودة الفعلية الاثنين
-  30 نوفمبر. راجع إدارة التعليم التابع لها.
+ 29 نوفمبر. قد تعلن إدارات التعليم إجازات إ
+ ضافية قبل العودة أو بعدها؛ راجع إدارتك.\n
+ التوثيق: بداية الإجازة مطابقة لبوابة وزا
+ رة التعليم الرسمية. آخر يوم دراسي وآخر يو
+ م إجازة وأول يوم عودة مأخوذة من تغطية صحف
+ ية لتقويم الوزارة (عكاظ وغيرها) ولم تُنشر
+  في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:extra-2026-11-29@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:إجازة إضافية (مدارس - إجازة إضافية حس
  ب المنطقة)
 DESCRIPTION:الفئة: مدارس - إجازة إضافية حسب الم
  نطقة\nالأحد 2026-11-29\nتلي إجازة الخريف مباشر
- ة. معلنة للرياض والقصيم ومعظم المناطق. را
- جع إدارة التعليم التابع لها.\nالحالة: regiona
- l
+ ة. معلنة للرياض والقصيم ومعظم المناطق حس
+ ب تغطية صحفية.\nالتوثيق: غير منشورة في بوا
+ بة وزارة التعليم؛ مصدرها تغطية صحفية وتخ
+ تلف بحسب إدارة التعليم. راجع إدارتك.
 CATEGORIES:مدارس - إجازة إضافية حسب المنطقة
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:isra-miraj-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:ذكرى الإسراء والمعراج (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالثلاثاء 2027-01-0
+ 5\nالتاريخ الهجري: 27 رجب 1448\nمناسبة دينية و
+ ليست إجازة رسمية.\nالتوثيق: محسوب بتقويم 
+ أم القرى (التقويم الرسمي في السعودية) وتط
+ ابق مع 10 تواريخ منشورة في بوابة وزارة الت
+ عليم. بداية رمضان والعيدان تُعلن رسمياً 
+ برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:midyear-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:آخر يوم دراسي قبل إجازة منتصف العام ا
  لدراسي
-DESCRIPTION:الفئة: مدارس\nالخميس 7 يناير 2027 إجاز
- ة إضافية في معظم المناطق، لذا آخر يوم درا
- سي الأربعاء 6 يناير. بداية الفصل الدراسي 
- الثاني الأحد 17 يناير.
+DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي الأربعا
+ ء 6 يناير (الخميس 7 يناير إجازة إضافية في م
+ ناطق كثيرة حسب تغطية صحفية). بداية الفصل 
+ الدراسي الثاني الأحد 17 يناير.\nالتوثيق: ب
+ داية الإجازة مطابقة لبوابة وزارة التعلي
+ م الرسمية. آخر يوم دراسي وآخر يوم إجازة و
+ أول يوم عودة مأخوذة من تغطية صحفية لتقوي
+ م الوزارة (عكاظ وغيرها) ولم تُنشر في البو
+ ابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:semester1-end-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:نهاية الفصل الدراسي الأول (آخر يوم در
  اسي) (مدارس)
 DESCRIPTION:الفئة: مدارس\nالأربعاء 2027-01-06\nآخر ي
- وم دراسي قبل إجازة منتصف العام. الخميس 7 ي
- ناير إجازة إضافية في معظم المناطق.\nالحال
- ة: confirmed
+ وم دراسي قبل إجازة منتصف العام (مستنتج: إ
+ جازة المنتصف تبدأ الجمعة 8 يناير بحسب الو
+ زارة، والخميس 7 يناير إجازة إضافية في منا
+ طق كثيرة).\nالتوثيق: مأخوذ من تغطية صحفية 
+ لتقويم الوزارة ولم يُنشر في بوابة الوزار
+ ة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:extra-2027-01-07@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:إجازة إضافية (مدارس - إجازة إضافية حس
@@ -246,72 +321,109 @@ SUMMARY:إجازة إضافية (مدارس - إجازة إضافية حس
 DESCRIPTION:الفئة: مدارس - إجازة إضافية حسب الم
  نطقة\nالخميس 2027-01-07\nتسبق إجازة منتصف العا
  م مباشرة. معلنة للرياض والقصيم ومعظم الم
- ناطق. راجع إدارة التعليم التابع لها.\nالح
- الة: regional
+ ناطق حسب تغطية صحفية.\nالتوثيق: غير منشور
+ ة في بوابة وزارة التعليم؛ مصدرها تغطية ص
+ حفية وتختلف بحسب إدارة التعليم. راجع إدا
+ رتك.
 CATEGORIES:مدارس - إجازة إضافية حسب المنطقة
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midyear-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270117
 SUMMARY:إجازة منتصف العام الدراسي (مدارس)
 DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الأربع
  اء 2027-01-06\nأول يوم للإجازة: الجمعة 2027-01-08\nآ
  خر يوم للإجازة: السبت 2027-01-16\nأول يوم عودة 
- للطلاب: الأحد 2027-01-17\nالخميس 7 يناير 2027 إجا
- زة إضافية في معظم المناطق، لذا آخر يوم در
- اسي الأربعاء 6 يناير. بداية الفصل الدراسي
-  الثاني الأحد 17 يناير.\nالحالة: confirmed
+ للطلاب: الأحد 2027-01-17\nآخر يوم دراسي الأربع
+ اء 6 يناير (الخميس 7 يناير إجازة إضافية في 
+ مناطق كثيرة حسب تغطية صحفية). بداية الفصل
+  الدراسي الثاني الأحد 17 يناير.\nالتوثيق: ب
+ داية الإجازة مطابقة لبوابة وزارة التعلي
+ م الرسمية. آخر يوم دراسي وآخر يوم إجازة و
+ أول يوم عودة مأخوذة من تغطية صحفية لتقوي
+ م الوزارة (عكاظ وغيرها) ولم تُنشر في البو
+ ابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:midyear-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:أول يوم عودة للدراسة بعد إجازة منتصف 
  العام الدراسي
-DESCRIPTION:الفئة: مدارس\nالخميس 7 يناير 2027 إجاز
- ة إضافية في معظم المناطق، لذا آخر يوم درا
- سي الأربعاء 6 يناير. بداية الفصل الدراسي 
- الثاني الأحد 17 يناير.
+DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي الأربعا
+ ء 6 يناير (الخميس 7 يناير إجازة إضافية في م
+ ناطق كثيرة حسب تغطية صحفية). بداية الفصل 
+ الدراسي الثاني الأحد 17 يناير.\nالتوثيق: ب
+ داية الإجازة مطابقة لبوابة وزارة التعلي
+ م الرسمية. آخر يوم دراسي وآخر يوم إجازة و
+ أول يوم عودة مأخوذة من تغطية صحفية لتقوي
+ م الوزارة (عكاظ وغيرها) ولم تُنشر في البو
+ ابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:semester2-start-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:بداية الفصل الدراسي الثاني (مدارس)
 DESCRIPTION:الفئة: مدارس\nالأحد 2027-01-17\nالأحد 9 ش
- عبان 1448.\nالحالة: confirmed
+ عبان 1448.\nالتوثيق: مأخوذ من تغطية صحفية لت
+ قويم الوزارة ولم يُنشر في بوابة الوزارة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ramadan-start-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:بداية شهر رمضان 1448 (متوقعة) (مناسبة دي
+ نية)
+DESCRIPTION:الفئة: مناسبة دينية\nالاثنين 2027-02-08\
+ nالتاريخ الهجري: 1 رمضان 1448\nالاثنين. تُعل
+ ن رسمياً برؤية هلال رمضان مساء 29 شعبان (7 
+ فبراير).\nالتوثيق: محسوب بتقويم أم القرى (
+ التقويم الرسمي في السعودية) وتطابق مع 10 ت
+ واريخ منشورة في بوابة وزارة التعليم. بدا
+ ية رمضان والعيدان تُعلن رسمياً برؤية اله
+ لال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:founding-day-school-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:آخر يوم دراسي قبل إجازة يوم التأسيس
 DESCRIPTION:الفئة: مدارس\nيوم التأسيس الرسمي ال
  اثنين 22 فبراير، وتشمل إجازة الطلاب الأحد
-  والاثنين 21-22 فبراير مع نهاية الأسبوع.
+  والاثنين 21-22 فبراير مع نهاية الأسبوع.\nال
+ توثيق: بداية الإجازة مطابقة لبوابة وزارة
+  التعليم الرسمية. آخر يوم دراسي وآخر يوم 
+ إجازة وأول يوم عودة مأخوذة من تغطية صحفي
+ ة لتقويم الوزارة (عكاظ وغيرها) ولم تُنشر 
+ في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:founding-day-school-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270223
 SUMMARY:إجازة يوم التأسيس (مدارس)
@@ -321,42 +433,54 @@ DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الخميس
  للطلاب: الثلاثاء 2027-02-23\nيوم التأسيس الرس
  مي الاثنين 22 فبراير، وتشمل إجازة الطلاب 
  الأحد والاثنين 21-22 فبراير مع نهاية الأسب
- وع.\nالحالة: confirmed
+ وع.\nالتوثيق: بداية الإجازة مطابقة لبوابة
+  وزارة التعليم الرسمية. آخر يوم دراسي وآخ
+ ر يوم إجازة وأول يوم عودة مأخوذة من تغطية
+  صحفية لتقويم الوزارة (عكاظ وغيرها) ولم ت
+ ُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:founding-day-2027@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:يوم التأسيس (عطلة رسمية - حكومي وخاص)
 DESCRIPTION:الفئة: عطلة رسمية - حكومي وخاص\nالاث
  نين 2027-02-22\nعطلة رسمية ثابتة في 22 فبراير ل
  جميع القطاعات (حكومي وخاص وغير ربحي) بأمر
-  ملكي.\nالحالة: confirmed
+  ملكي.\nالتوثيق: عطلة ثابتة بأمر ملكي؛ الت
+ وثيق من ملخص نظام العمل (مصدر ثانوي) وليس 
+ من صفحة رسمية للوزارة. وتاريخ بداية إجاز
+ ة الطلاب في بوابة وزارة التعليم.
 CATEGORIES:عطلة رسمية - حكومي وخاص
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:founding-day-school-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:أول يوم عودة للدراسة بعد إجازة يوم ال
  تأسيس
 DESCRIPTION:الفئة: مدارس\nيوم التأسيس الرسمي ال
  اثنين 22 فبراير، وتشمل إجازة الطلاب الأحد
-  والاثنين 21-22 فبراير مع نهاية الأسبوع.
+  والاثنين 21-22 فبراير مع نهاية الأسبوع.\nال
+ توثيق: بداية الإجازة مطابقة لبوابة وزارة
+  التعليم الرسمية. آخر يوم دراسي وآخر يوم 
+ إجازة وأول يوم عودة مأخوذة من تغطية صحفي
+ ة لتقويم الوزارة (عكاظ وغيرها) ولم تُنشر 
+ في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eid-fitr-school-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:آخر يوم دراسي قبل إجازة عيد الفطر
@@ -364,14 +488,18 @@ DESCRIPTION:الفئة: مدارس\nحسب تقويم وزارة التعل
  يم الهجري (19 رمضان – 5 شوال 1448). مواعيد الع
  يد مرتبطة برؤية الهلال وقد تعدلها الوزار
  ة بإعلان رسمي. هذه إجازة الطلاب فقط وليست
-  إجازة الموظفين.
+  إجازة الموظفين.\nالتوثيق: بداية الإجازة 
+ مطابقة لبوابة وزارة التعليم الرسمية. آخر
+  يوم دراسي وآخر يوم إجازة وأول يوم عودة م
+ أخوذة من تغطية صحفية لتقويم الوزارة (عكا
+ ظ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eid-fitr-school-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270314
 SUMMARY:إجازة عيد الفطر (مدارس)
@@ -382,14 +510,93 @@ DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الخميس
  م الهجري (19 رمضان – 5 شوال 1448). مواعيد العي
  د مرتبطة برؤية الهلال وقد تعدلها الوزارة
   بإعلان رسمي. هذه إجازة الطلاب فقط وليست 
- إجازة الموظفين.\nالحالة: confirmed_school_calendar
+ إجازة الموظفين.\nالتوثيق: بداية الإجازة م
+ طابقة لبوابة وزارة التعليم الرسمية. آخر 
+ يوم دراسي وآخر يوم إجازة وأول يوم عودة مأ
+ خوذة من تغطية صحفية لتقويم الوزارة (عكاظ 
+ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:laylat-qadr-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:ليلة السابع والعشرين من رمضان (مناسب
+ ة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالسبت 2027-03-06\nا
+ لتاريخ الهجري: 27 رمضان 1448\nليلة القدر في ا
+ لعشر الأواخر من رمضان، وتُرجى في الليالي
+  الوتر ومنها ليلة 27.\nالتوثيق: محسوب بتقوي
+ م أم القرى (التقويم الرسمي في السعودية) و
+ تطابق مع 10 تواريخ منشورة في بوابة وزارة ا
+ لتعليم. بداية رمضان والعيدان تُعلن رسميا
+ ً برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ramadan-last-day-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:آخر أيام رمضان (29 رمضان) وليلة رؤية هل
+ ال شوال (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالاثنين 2027-03-08\
+ nالتاريخ الهجري: 29 رمضان 1448\nيوم تحري هلال
+  شوال. إن لم يُرَ الهلال أُكمل رمضان 30 يوم
+ اً فيكون آخر يوم فيه 9 مارس ويبدأ العيد 10 
+ مارس.\nالتوثيق: محسوب بتقويم أم القرى (الت
+ قويم الرسمي في السعودية) وتطابق مع 10 توار
+ يخ منشورة في بوابة وزارة التعليم. بداية ر
+ مضان والعيدان تُعلن رسمياً برؤية الهلال 
+ وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-fitr-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270312
+SUMMARY:أول أيام عيد الفطر (متوقع) (عيد - إجازة
+  الموظفين لم تُعلن)
+DESCRIPTION:الفئة: عيد - إجازة الموظفين لم تُعل
+ ن\nالثلاثاء 2027-03-09\nالتاريخ الهجري: 1 شوال 1
+ 448\nالثلاثاء. أيام العيد 1-3 شوال (9-11 مارس) إ
+ ن ثبت هلال شوال. إجازة الموظفين لم تُعلن 
+ بعد.\nالتوثيق: محسوب بتقويم أم القرى (التق
+ ويم الرسمي في السعودية) وتطابق مع 10 تواري
+ خ منشورة في بوابة وزارة التعليم. بداية رم
+ ضان والعيدان تُعلن رسمياً برؤية الهلال و
+ قد تختلف يوماً.
+CATEGORIES:عيد - إجازة الموظفين لم تُعلن
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:flag-day-2027@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:يوم العَلَم السعودي (مناسبة وطنية)
+DESCRIPTION:الفئة: مناسبة وطنية\nالخميس 2027-03-11\n
+ مناسبة وطنية سنوية في 11 مارس وليست إجازة.
+  ظهر في تقويم وزارة التعليم لعام 2026.\nالتو
+ ثيق: التاريخ ثابت سنوياً (11 مارس). موثّق م
+ ن تقويم بوابة الوزارة لعام 2026 ولم يرد في 
+ تقويم 1448.
+CATEGORIES:مناسبة وطنية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:eid-fitr-school-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:أول يوم عودة للدراسة بعد إجازة عيد ال
@@ -398,43 +605,51 @@ DESCRIPTION:الفئة: مدارس\nحسب تقويم وزارة التعل
  يم الهجري (19 رمضان – 5 شوال 1448). مواعيد الع
  يد مرتبطة برؤية الهلال وقد تعدلها الوزار
  ة بإعلان رسمي. هذه إجازة الطلاب فقط وليست
-  إجازة الموظفين.
+  إجازة الموظفين.\nالتوثيق: بداية الإجازة 
+ مطابقة لبوابة وزارة التعليم الرسمية. آخر
+  يوم دراسي وآخر يوم إجازة وأول يوم عودة م
+ أخوذة من تغطية صحفية لتقويم الوزارة (عكا
+ ظ وغيرها) ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:extra-2027-04-11@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:إجازة إضافية (مدارس - إجازة إضافية حس
  ب المنطقة)
 DESCRIPTION:الفئة: مدارس - إجازة إضافية حسب الم
  نطقة\nالأحد 2027-04-11\nمعلنة للرياض والقصيم و
- معظم المناطق. راجع إدارة التعليم التابع 
- لها.\nالحالة: regional
+ معظم المناطق حسب تغطية صحفية.\nالتوثيق: غ
+ ير منشورة في بوابة وزارة التعليم؛ مصدرها
+  تغطية صحفية وتختلف بحسب إدارة التعليم. ر
+ اجع إدارتك.
 CATEGORIES:مدارس - إجازة إضافية حسب المنطقة
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:adha-4cities-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:آخر يوم دراسي قبل إجازة عيد الأضحى
 DESCRIPTION:الفئة: مدارس - مكة والمدينة وجدة وا
  لطائف\nتخص إدارات تعليم مكة المكرمة والم
  دينة المنورة وجدة والطائف فقط (من 23 ذو ال
- قعدة إلى 16 ذو الحجة 1448).
+ قعدة إلى 16 ذو الحجة 1448).\nالتوثيق: غير منشو
+ رة في بوابة وزارة التعليم؛ من مصادر ثانو
+ ية.
 CATEGORIES:مدارس - مكة والمدينة وجدة والطائف
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:adha-4cities-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270523
 SUMMARY:إجازة عيد الأضحى (مدارس - مكة والمدين
@@ -445,29 +660,51 @@ DESCRIPTION:الفئة: مدارس - مكة والمدينة وجدة وا
  السبت 2027-05-22\nأول يوم عودة للطلاب: الأحد 202
  7-05-23\nتخص إدارات تعليم مكة المكرمة والمدي
  نة المنورة وجدة والطائف فقط (من 23 ذو القع
- دة إلى 16 ذو الحجة 1448).\nالحالة: confirmed
+ دة إلى 16 ذو الحجة 1448).\nالتوثيق: غير منشورة
+  في بوابة وزارة التعليم؛ من مصادر ثانوية.
 CATEGORIES:مدارس - مكة والمدينة وجدة والطائف
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eid-adha-school-1448-last@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:آخر يوم دراسي قبل إجازة عيد الأضحى
 DESCRIPTION:الفئة: مدارس\nحسب تقويم وزارة التعل
  يم الهجري (1-16 ذو الحجة 1448). مرتبطة برؤية ا
  لهلال وقد تعدلها الوزارة. هذه إجازة الطل
- اب فقط. مكة والمدينة وجدة والطائف تبدأ إج
- ازتها قبل ذلك (انظر حدثها الخاص).
+ اب فقط.\nالتوثيق: بداية الإجازة مطابقة لب
+ وابة وزارة التعليم الرسمية. آخر يوم دراس
+ ي وآخر يوم إجازة وأول يوم عودة مأخوذة من 
+ تغطية صحفية لتقويم الوزارة (عكاظ وغيرها) 
+ ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:dhul-hijjah-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:بداية شهر ذي الحجة 1448 (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالجمعة 2027-05-07\n
+ التاريخ الهجري: 1 ذو الحجة 1448\nالجمعة. الت
+ اريخ في تقويم وزارة التعليم كبداية لإجاز
+ ة عيد الأضحى للطلاب.\nالتوثيق: محسوب بتقو
+ يم أم القرى (التقويم الرسمي في السعودية) 
+ وتطابق مع 10 تواريخ منشورة في بوابة وزارة 
+ التعليم. بداية رمضان والعيدان تُعلن رسمي
+ اً برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:eid-adha-school-1448-break@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270523
 SUMMARY:إجازة عيد الأضحى (مدارس)
@@ -477,16 +714,72 @@ DESCRIPTION:الفئة: مدارس\nآخر يوم دراسي: الخميس
  طلاب: الأحد 2027-05-23\nحسب تقويم وزارة التعلي
  م الهجري (1-16 ذو الحجة 1448). مرتبطة برؤية ال
  هلال وقد تعدلها الوزارة. هذه إجازة الطلا
- ب فقط. مكة والمدينة وجدة والطائف تبدأ إجا
- زتها قبل ذلك (انظر حدثها الخاص).\nالحالة: co
- nfirmed_school_calendar
+ ب فقط.\nالتوثيق: بداية الإجازة مطابقة لبو
+ ابة وزارة التعليم الرسمية. آخر يوم دراسي 
+ وآخر يوم إجازة وأول يوم عودة مأخوذة من تغ
+ طية صحفية لتقويم الوزارة (عكاظ وغيرها) ول
+ م تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:arafah-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:يوم عرفة (متوقع) (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالسبت 2027-05-15\nا
+ لتاريخ الهجري: 9 ذو الحجة 1448\nالسبت. صيام ي
+ وم عرفة لغير الحاج.\nالتوثيق: محسوب بتقوي
+ م أم القرى (التقويم الرسمي في السعودية) و
+ تطابق مع 10 تواريخ منشورة في بوابة وزارة ا
+ لتعليم. بداية رمضان والعيدان تُعلن رسميا
+ ً برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eid-adha-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270519
+SUMMARY:أول أيام عيد الأضحى (متوقع) (عيد - إجاز
+ ة الموظفين لم تُعلن)
+DESCRIPTION:الفئة: عيد - إجازة الموظفين لم تُعل
+ ن\nالأحد 2027-05-16\nالتاريخ الهجري: 10 ذو الحجة
+  1448\nالأحد. أيام العيد 10-12 ذو الحجة (16-18 ماي
+ و). إجازة الموظفين لم تُعلن بعد.\nالتوثيق: 
+ محسوب بتقويم أم القرى (التقويم الرسمي في 
+ السعودية) وتطابق مع 10 تواريخ منشورة في بو
+ ابة وزارة التعليم. بداية رمضان والعيدان 
+ تُعلن رسمياً برؤية الهلال وقد تختلف يوما
+ ً.
+CATEGORIES:عيد - إجازة الموظفين لم تُعلن
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:tashreeq-1448@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270520
+SUMMARY:أيام التشريق (متوقعة) (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالاثنين 2027-05-17\
+ nالتاريخ الهجري: 11-13 ذو الحجة 1448\nالاثنين 
+ إلى الأربعاء 17-19 مايو.\nالتوثيق: محسوب بتق
+ ويم أم القرى (التقويم الرسمي في السعودية)
+  وتطابق مع 10 تواريخ منشورة في بوابة وزارة
+  التعليم. بداية رمضان والعيدان تُعلن رسم
+ ياً برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:adha-4cities-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:أول يوم عودة للدراسة بعد إجازة عيد ال
@@ -494,14 +787,16 @@ SUMMARY:أول يوم عودة للدراسة بعد إجازة عيد ال
 DESCRIPTION:الفئة: مدارس - مكة والمدينة وجدة وا
  لطائف\nتخص إدارات تعليم مكة المكرمة والم
  دينة المنورة وجدة والطائف فقط (من 23 ذو ال
- قعدة إلى 16 ذو الحجة 1448).
+ قعدة إلى 16 ذو الحجة 1448).\nالتوثيق: غير منشو
+ رة في بوابة وزارة التعليم؛ من مصادر ثانو
+ ية.
 CATEGORIES:مدارس - مكة والمدينة وجدة والطائف
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:eid-adha-school-1448-return@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:أول يوم عودة للدراسة بعد إجازة عيد ال
@@ -509,29 +804,68 @@ SUMMARY:أول يوم عودة للدراسة بعد إجازة عيد ال
 DESCRIPTION:الفئة: مدارس\nحسب تقويم وزارة التعل
  يم الهجري (1-16 ذو الحجة 1448). مرتبطة برؤية ا
  لهلال وقد تعدلها الوزارة. هذه إجازة الطل
- اب فقط. مكة والمدينة وجدة والطائف تبدأ إج
- ازتها قبل ذلك (انظر حدثها الخاص).
+ اب فقط.\nالتوثيق: بداية الإجازة مطابقة لب
+ وابة وزارة التعليم الرسمية. آخر يوم دراس
+ ي وآخر يوم إجازة وأول يوم عودة مأخوذة من 
+ تغطية صحفية لتقويم الوزارة (عكاظ وغيرها) 
+ ولم تُنشر في البوابة.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:hijri-new-year-1449@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:رأس السنة الهجرية 1449 (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالأحد 2027-06-06\nا
+ لتاريخ الهجري: 1 محرم 1449\nالأحد. مناسبة دي
+ نية وليست إجازة رسمية في السعودية.\nالتوث
+ يق: محسوب بتقويم أم القرى (التقويم الرسمي
+  في السعودية) وتطابق مع 10 تواريخ منشورة ف
+ ي بوابة وزارة التعليم. بداية رمضان والعي
+ دان تُعلن رسمياً برؤية الهلال وقد تختلف 
+ يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ashura-1449@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:يوم عاشوراء (مناسبة دينية)
+DESCRIPTION:الفئة: مناسبة دينية\nالثلاثاء 2027-06-1
+ 5\nالتاريخ الهجري: 10 محرم 1449\nالثلاثاء. صيا
+ مه سنة، وليس إجازة رسمية.\nالتوثيق: محسوب 
+ بتقويم أم القرى (التقويم الرسمي في السعو
+ دية) وتطابق مع 10 تواريخ منشورة في بوابة و
+ زارة التعليم. بداية رمضان والعيدان تُعلن
+  رسمياً برؤية الهلال وقد تختلف يوماً.
+CATEGORIES:مناسبة دينية
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:year-end-last-day-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270625
 SUMMARY:آخر يوم دراسي في العام ونهاية الفصل ا
  لثاني (مدارس)
 DESCRIPTION:الفئة: مدارس\nالخميس 2027-06-24\nالخميس 1
  9 محرم 1449، وتبدأ الإجازة الصيفية بعده.\nال
- حالة: confirmed
+ توثيق: التاريخ مطابق لبوابة وزارة التعلي
+ م الرسمية.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:summer-start-1448@saudi-school-holiday-calendar
-DTSTAMP:20261109T000000Z
-SEQUENCE:1
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
 DTSTART;VALUE=DATE:20270625
 DTEND;VALUE=DATE:20270626
 SUMMARY:بداية الإجازة الصيفية (نهاية العام ا
@@ -539,7 +873,49 @@ SUMMARY:بداية الإجازة الصيفية (نهاية العام ا
 DESCRIPTION:الفئة: مدارس\nالجمعة 2027-06-25\nأول يوم 
  في الإجازة الصيفية. بداية العام الدراسي 
  التالي 1449-1450هـ غير مثبتة بعد (انظر pending في
-  ملف البيانات).\nالحالة: confirmed
+  ملف البيانات).\nالتوثيق: مشتق من تاريخ بو
+ ابة الوزارة (نهاية دوام الخميس 24 يونيو).
+CATEGORIES:مدارس
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:admin-return-1449@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:عودة الهيئة الإدارية والمشرفين التر
+ بويين (العام 1449-1450هـ) (مدارس)
+DESCRIPTION:الفئة: مدارس\nالثلاثاء 2027-08-10\nالثلا
+ ثاء 8 ربيع الأول 1449.\nالتوثيق: التاريخ مطا
+ بق لبوابة وزارة التعليم الرسمية.
+CATEGORIES:مدارس
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:teachers-return-1449@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:عودة المعلمين الممارسين للتدريس (الع
+ ام 1449-1450هـ) (مدارس)
+DESCRIPTION:الفئة: مدارس\nالأحد 2027-08-15\nالأحد 13 ر
+ بيع الأول 1449.\nالتوثيق: التاريخ مطابق لبو
+ ابة وزارة التعليم الرسمية.
+CATEGORIES:مدارس
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:school-start-1449@saudi-school-holiday-calendar
+DTSTAMP:20261110T000000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:بداية العام الدراسي 1449-1450هـ (مدارس)
+DESCRIPTION:الفئة: مدارس\nالأحد 2027-08-22\nالأحد 20 ر
+ بيع الأول 1449.\nالتوثيق: التاريخ مطابق لبو
+ ابة وزارة التعليم الرسمية.
 CATEGORIES:مدارس
 TRANSP:TRANSPARENT
 END:VEVENT
